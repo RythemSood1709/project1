@@ -1,0 +1,224 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f3e5d8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #5f5e5a;
+    font-family: 'Outfit',sans-serif;
+    font-size: 16px;
+}
+
+.main-panel {
+    margin: 30px 0;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    max-width: 800px;
+}
+
+@media (max-width: 700px) {
+    body {
+        background-color: white;
+    }
+    
+    .main-panel {
+        width: 500px;
+        margin: 0;
+    }
+}
+
+
+img {
+    margin: 50px 50px;
+    border-radius: 20px;
+}
+@media (max-width: 700px) {
+    img {
+        border-radius: 0px;
+        margin: 0;
+        margin-bottom: 50px;
+    }
+}
+
+h1 {
+    font-family: 'Sedan', serif;
+    font-size: 40px;
+    font-weight:700;
+    color: #2c2b29;
+    margin : 20px 50px;
+    margin-top: 0;
+}
+
+.firstp {
+    margin: 0 50px;
+    line-height: 23px;
+}
+
+.secondp {
+    border-radius: 20px;
+    background-color: #fff7fc;
+    padding: 20px;
+    margin: 20px 50px;
+    
+}
+
+/*second paragraph heading*/
+.secondp h3 {
+    color: #762d4a;
+    font-weight: 700;
+    margin: 15px;
+    margin-top: 0;
+}
+
+/*bullet color*/
+.secondp ul {
+    margin-left: 35px;
+    color: #762d4a;
+    line-height: 25px;
+}
+
+/*ul text color*/
+.sultext {
+    color: #5f5e5a;
+}
+
+.sultext b {
+    font-weight: 700;
+}
+
+.thirdp {
+    margin: 0 50px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e3e3e3;
+    margin-bottom: 15px;
+
+}
+
+h2 {
+    color: #7b452f;
+    font-weight: 700;
+    font-size: 30px;
+    font-family: 'Sedan', serif; 
+    margin: 20px 0;
+    margin-top: 10px;
+}
+
+.thirdp ul {
+    margin: 0 20px;
+    line-height: 30px;
+    color: #7b452f;
+}
+
+/*third para unordered list*/
+.thultext {
+    color: #5f5e5a;
+}
+
+.fourthp {
+    margin: 0 50px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e3e3e3;
+    margin-bottom: 15px;
+}
+
+/*fourth paragraph ordered list*/
+.fourthp ol {
+    margin: 0 20px;
+    line-height: 30px;
+    color: #7b452f;
+    font-weight: bolder;
+}
+
+/*fourth para ol inside text*/
+.foltext {
+    color: #5f5e5a;
+    font-weight: 400;
+}
+
+.foltext b {
+    font-weight: 700;
+}
+
+.fifthp {
+    margin: 0 50px;
+}
+
+.nutritiontable {
+    margin: 20px 0;
+    line-height: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+/*quantity column*/
+.qty {
+    color:#7b452f;
+    font-weight: 700;
+}
+
+/*1st column of table*/
+.items {
+    padding-left: 30px;
+    width: 300px;
+}
+
+table {
+    width: 800px;
+}
+
+table tr {
+    border-bottom: 1px solid #e3e3e3;
+}
+
+table tr:last-child {
+    border-bottom: none;
+}
